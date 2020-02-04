@@ -4,7 +4,7 @@
 
 ```
 
-composer require Elfeqy\Env
+composer require elfeqy/env
 
 ```
 
