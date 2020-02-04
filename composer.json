@@ -1,5 +1,5 @@
 {
-    "name"                  : "Elfeqy/Env",
+    "name"                  : "elfeqy/env",
     "description"           : "A Simple Package To Handle Environment (.env) File [GET & Overwrite]",
     "type"                  : "package",
     "license"               : "MIT",
