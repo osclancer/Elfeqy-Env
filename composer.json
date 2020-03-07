@@ -3,7 +3,7 @@
     "description"           : "A Simple Package To Handle Environment (.env) File [GET & Overwrite]",
     "type"                  : "package",
     "license"               : "MIT",
-    "version"               : "1.0",
+    "version"               : "1.1.0",
     "keywords"              : ["laravel", "environment", "env", ".env", "package"],
     "authors"               : 
     [
