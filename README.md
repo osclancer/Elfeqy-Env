@@ -8,21 +8,9 @@ composer require elfeqy/env
 
 ```
 
-After Installation Open You `app.php` in `config/app.php` And Add This In Your `Providers` Like This :
+if you're using Laravel 5.5 or above, you're ready to go.
 
-```php
-
-<?php
-
-'providers' => [
-
-    Elfeqy\Env\EnvServiceProvider::class,
-
-]
-
-```
-
-And Add This Code Into `aliases` Like : 
+otherwise you have to open `config/app.php` and add a new line in `aliases` :
 
 ```php
 

@@ -3,9 +3,9 @@
     "description"           : "A Simple Package To Handle Environment (.env) File [GET & Overwrite]",
     "type"                  : "package",
     "license"               : "MIT",
-    "version"               : "1.1.0",
+    "version"               : "1.0.0-dev",
     "keywords"              : ["laravel", "environment", "env", ".env", "package"],
-    "authors"               : 
+    "authors"               :
     [
         {
             "name"          : "Mhammed Elfeqy",
@@ -14,12 +14,17 @@
             "role"          : "Developer"
         }
     ],
-    "autoload"              : 
+    "autoload"              :
     {
-        "psr-4"             : 
+        "psr-4"             :
         {
             "Elfeqy\\Env\\" : "src/"
         }
     },
-    "minimum-stability"     : "dev"
+    "minimum-stability"     : "dev",
+    "extra": {
+        "aliases" : {
+            "Env" : "Elfeqy\\Env\\Env"
+        }
+    }
 }
